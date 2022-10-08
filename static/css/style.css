@@ -1,0 +1,30 @@
+:root {
+    /* Set sans-serif & mono fonts */
+    --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
+      "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
+      "Helvetica Neue", sans-serif;
+    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+body {
+    max-width: 800px;
+    margin: auto;
+    padding: 1em;
+    line-height: 1.5;
+    font-family: var(--sans-font);
+}
+code {
+    font-family: var(--mono-font);
+    font-size: 85%;
+  }
+/* Menu */
+.menu {
+    text-align: center;
+    padding: 0;
+}
+.menu li { display: inline-block; }
+.menu a {
+  text-decoration: none;
+  background: #eee;
+  padding: 5px;
+  border-radius: 5px;
+}
